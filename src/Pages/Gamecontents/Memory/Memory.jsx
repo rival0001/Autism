@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import fruitItems from './fruits.json';
 import './Memory.css';
 
+
+
+
 function Card({ fruit, flipped, chooseCard }) {
   const cardClickHandle = () => {
     if (!flipped) {
